@@ -1,0 +1,198 @@
+
+html{
+    font-family: 'Inter', sans-serif;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.sectionBrand{
+    width: 45%;
+    background-color: var(--color-green-3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionBrand div{
+    width: 40rem;
+    height: 20rem;
+    padding: 1rem;
+}
+
+.sectionBrand div > h1{
+    font-family: 'Sacramento';
+    font-size: 5rem;
+    color: var(--color-green-1);
+}
+
+.sectionBrand div > p{
+    font-size: 2rem;
+    color: var(--color-grey-1);
+}
+
+.sectionLogin{
+    width: 55%;
+    background-color: var(--color-grey-6);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.sectionLogin form{
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    height: 30rem;
+    padding: 3rem;
+    background-color: var(--color-green-2);
+    border-radius: var(--border-radius);
+}
+
+.sectionLogin form h2{
+    color: var(--color-grey-6);
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.sectionLogin form label{
+    color: var(--color-grey-6);
+    margin-bottom: 0.5rem;
+}
+
+.sectionLogin form input{
+    border: transparent;
+    height: 3rem;
+    border-radius: var(--border-radius);
+    margin-bottom: 1rem;
+    background-color: var(--color-grey-6);
+    outline: none;
+    padding: 0 1rem;
+}
+
+.sectionLogin form ::placeholder{
+    color: var(--color-grey-4);
+    padding-left: 1rem;
+}
+
+.sectionLogin form button{
+    height: 3rem;
+    border-radius: var(--border-radius);
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--color-green-1);
+    border: 1px solid var(--color-green-1);
+    cursor: pointer;
+    background-color: var(--color-grey-6);
+    transition: 0.6s;
+}
+
+.sectionLogin form button:hover{
+    background-color: var(--color-green-1);
+    color: var(--color-grey-6);
+    border: 1px solid var(--color-grey-6);
+    transition: 0.6s;
+}
+
+.modalWrapper{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalWrapper form{
+    width: 35rem;
+    height: 24rem;
+    background-color: var(--color-grey-6);
+    border-radius: var(--border-radius);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.modalWrapper form div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.modalWrapper form div h2{
+    color: var(--color-green-1);
+    font-size: 2rem;
+}
+
+.modalWrapper form div button{
+    color: red;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid red;
+    border-radius: 50%;
+    background-color: transparent;
+    width: 2rem;
+    height: 2rem;
+    transition: 0.6s;
+    margin: 0;
+}
+
+.modalWrapper form div button:hover{
+    color: var(--color-grey-6); 
+    border: 1px solid var(--color-grey-6);
+    background-color: red;
+    transition: 0.6s;
+}
+
+.modalWrapper form p{
+    font-size: 1.5rem;
+    color: var(--color-grey-1);
+    margin-bottom: 1rem;
+}
+
+.modalWrapper form label{
+    color: var(--color-green-1);
+    margin-bottom: 0.5rem;
+}
+
+.modalWrapper form input{
+    border: 1px solid var(--color-green-1);
+    height: 3rem;
+    border-radius: var(--border-radius);
+    background-color: transparent;
+    outline: none;
+    padding: 0 1rem;
+    
+}
+
+.modalWrapper form ::placeholder{
+    color: var(--color-grey-4);
+    padding-left: 1rem;
+}
+
+.modalWrapper form button{
+    height: 3rem;
+    border-radius: var(--border-radius);
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--color-green-1);
+    border: 1px solid var(--color-green-1);
+    cursor: pointer;
+    background-color: transparent;
+    transition: 0.6s;
+}
+
+.modalWrapper form button:hover{
+    color: var(--color-grey-6);
+    background-color: var(--color-green-1);
+    transition: 0.6s;
+}
